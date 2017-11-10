@@ -1,0 +1,19 @@
+{
+  "name": "seamlessmd-screen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ady0906/seamlessmd-screen.git"
+  },
+  "author": "Adrien Peynichou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ady0906/seamlessmd-screen/issues"
+  },
+  "homepage": "https://github.com/ady0906/seamlessmd-screen#readme"
+}
