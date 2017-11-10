@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ady0906/seamlessmd-screen/issues"
   },
-  "homepage": "https://github.com/ady0906/seamlessmd-screen#readme"
+  "homepage": "https://github.com/ady0906/seamlessmd-screen#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
