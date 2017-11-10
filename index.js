@@ -1,4 +1,3 @@
-"use strict";
 const express       = require("express");
 const patientData   = require("./corrected-patient.json");
 const server        = express();
@@ -9,6 +8,6 @@ server.listen(3000, function() {
 });
 
 server.get("/", (req, res) => {
-    let view = pug.renderFile("template.pug", patientData);
+    let view = pug.renderFile("format.pug", patientData);
     res.send(view);
 });

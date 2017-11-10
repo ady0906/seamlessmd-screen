@@ -1,0 +1,8 @@
+div
+  p Name of patient: #{name.given} #{name.family}
+  p Organization name: #{managingOrganization.display}
+  p Gender: #{gender.charAt(0).toUpperCase() + gender.slice(1)}
+  p Number of conditions they have: #{conditions.length}
+  p List of all conditions:
+    each condition in conditions
+      div= '- ' + condition
