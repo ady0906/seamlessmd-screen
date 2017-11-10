@@ -9,5 +9,6 @@ server.listen(3000, function() {
 });
 
 server.get("/", (req, res) => {
-    
+    let view = pug.renderFile("template.pug", patientData);
+    res.send(view);
 });
