@@ -1,0 +1,14 @@
+html {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+p {
+    line-height: 10px;
+}
+
+ul {
+    margin-left: -30px;
+    line-height: 25px;
+    list-style: none;
+}

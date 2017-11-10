@@ -9,5 +9,6 @@ html
             p Gender: #{gender.charAt(0).toUpperCase() + gender.slice(1)}
             p Number of conditions they have: #{conditions.length}
             p List of all conditions:
+            ul
                 each condition in conditions
-                div= '- ' + condition
+                    li= '- ' + condition
