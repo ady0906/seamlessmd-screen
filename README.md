@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Clone this repo then start the app by running the following commands from your terminal.
+Clone this repo then navigate to it in your terminal before starting the app with the following commands.
 
 ```
 npm install
